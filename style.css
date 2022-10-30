@@ -29,7 +29,7 @@
 .task__title {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task__list {
@@ -122,10 +122,12 @@
 }
 
 .task__title_complete {
-  text-decoration: line-through color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
-.task__input_add, .task__input_edit {
+.task__input_add,
+.task__input_edit {
   display: inline-block;
 }
 
